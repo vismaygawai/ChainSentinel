@@ -1,0 +1,32 @@
+[
+    {
+        "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "label": "Binance 14",
+        "type": "CEX"
+    },
+    {
+        "address": "0xbe0eb53f46cd790cd13851d5eff43d12404d33e8",
+        "label": "Binance 7",
+        "type": "CEX"
+    },
+    {
+        "address": "0x47ac0fb4f2d84898e4d9e7b4dab3c24507a6d503",
+        "label": "Binance-Peg Tokens",
+        "type": "BRIDGE"
+    },
+    {
+        "address": "0xda9dfa130df4de4673b89022ee50ff26f6ea73cf",
+        "label": "Kraken 4",
+        "type": "CEX"
+    },
+    {
+        "address": "0x00000000219ab540356cbb839cbe05303d7705fa",
+        "label": "Beacon Deposit Contract",
+        "type": "INFRA"
+    },
+    {
+        "address": "0xd3d2e2659599797a0ca9760123517a23f37774cc",
+        "label": "Justin Sun",
+        "type": "WHALE"
+    }
+]
