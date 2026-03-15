@@ -4,11 +4,10 @@ Real-time on-chain intelligence platform
 
 An AI-powered on-chain security agent for DeFi treasuries. Chain Sentinel doesn't react to loss—**it prevents loss**.
 
-> **Built for the AGENT ARENA – AI Agent Hackathon** 🚀
+> **Built for the Electron 8.0 – AI Agent Hackathon** 🚀
 > *Hosted by IQAI, OpenMind, and EwhaChain*
 
 ---
-
 
 ### What Makes Chain Sentinel Perfect for This Hackathon
 
@@ -184,6 +183,18 @@ Chain Sentinel is **fully implemented using IQAI's Agent Development Kit for Typ
 ### ADK-TS Implementation
 
 Our four specialized agents are built using `AgentBuilder` pattern:
+
+```typescript
+// Example: Risk Analysis Agent using ADK-TS
+import { AgentBuilder } from "@iqai/adk";
+
+export async function initRiskAgent() {
+  return await AgentBuilder.create("risk_analysis_agent")
+    .withModel("qwen2.5")
+    .withInstruction("Analyze treasury concentration and financial risk...")
+    .build();
+}
+```
 
 ### Agent Architecture
 
