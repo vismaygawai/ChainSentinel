@@ -1,0 +1,25 @@
+{
+  "name": "chainsentinel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@iqai/adk": "^0.8.1",
+    "ai": "^6.0.116",
+    "@ai-sdk/openai": "^3.0.41",
+    "langfuse": "^3.38.6",
+    "zod": "^4.1.13"
+  }
+}
